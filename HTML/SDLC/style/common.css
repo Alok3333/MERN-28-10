@@ -1,0 +1,52 @@
+:root{
+    font-size: 14px;
+}
+body {
+    margin: 0;
+}
+.top-contact {
+    background-color: blue;
+    color: white;
+    padding: 5px 0px;
+}
+
+.top-contact a {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.logo-container .logo {
+    display: inline-block;
+}
+.logo-container .logo img{
+    width: 100px;
+}
+
+.logo-container .main-nav {
+    display: inline-block;
+}
+.container{
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+}
+.main-nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+.main-nav ul li{
+    display: inline-block;
+    
+}
+.main-nav ul li a{
+    padding: 0px 23px;
+    background-color: green;
+    text-decoration: none;
+}
+.main-nav ul li a:hover{
+    background-color: rgb(255, 255, 0);
+    font-weight: bold;
+}
